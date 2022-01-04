@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlaskBot</title>
+</head>
+<body>
+    <form action="{{url_for('message')}}" method="POST">
+        <input type="text" name="username" style="padding: 10px;" placeholder="Username">
+        <br>
+        <br>
+
+        <input type="password" name="password" style="padding: 10px;" placeholder="Password">
+        <br>
+        <br>
+        <input type="submit" value="Enter" style="padding: 0px 10px;">
+    </form>
+</body>
+</html>
